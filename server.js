@@ -116,6 +116,9 @@ app.post('/addAuthor' ,async (req , res)=>{
         if(author){
             res.send(author)
         }
+        else{
+            res.send("error")
+        }
   
 
 })
